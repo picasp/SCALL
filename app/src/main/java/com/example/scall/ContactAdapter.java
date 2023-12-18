@@ -66,8 +66,7 @@ public class ContactAdapter extends RecyclerView.Adapter {
     }
 
     static class ContactViewHolder extends RecyclerView.ViewHolder {
-        private TextView textViewName;
-        private TextView textViewPhoneNumber;
+        TextView textViewName, textViewPhoneNumber;
 
         ContactViewHolder(@NonNull View itemView) {
             super(itemView);
